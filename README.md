@@ -6,8 +6,8 @@ A memory game for kids (and grown-ups), inspired by a famous YouTube tile-patter
 Made for Anbernic-style Linux handhelds (via [PortMaster](https://portmaster.games)), and it
 also runs in a web browser as a single HTML file.
 
-**▶ Play in your browser:** _link coming soon_ (or download [`docs/index.html`](docs/index.html)
-and open it - it's the whole game in one file)
+**▶ Play in your browser: https://stepping-stones-67o.pages.dev**
+(or download [`docs/index.html`](docs/index.html) and open it - it's the whole game in one file)
 
 | Home: badges & levels | Watch the path | Level clear! |
 |--|--|--|
@@ -62,6 +62,9 @@ make portmaster    # aarch64 PortMaster package -> dist/steppingstones.zip
                    #   (set CROSS_CC to your aarch64 compiler; put the target's libSDL2.so in device-libs/)
 make web           # one-file web version -> docs/index.html (needs Emscripten)
 ```
+
+The web page is hosted on Cloudflare Pages as a static site: just `docs/index.html` plus
+`web/_headers` (strict security headers: nothing loads from other sites, no camera/mic/location).
 
 Test aid: `./stones --headless --seed 5 --script "-:20 A:250 P:9 P:9" --shots 10,260 --out DIR`
 runs without a window and saves screenshots (`P` takes the next step along the real path).
