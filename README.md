@@ -82,6 +82,11 @@ runs without a window and saves screenshots (`P` takes the next step along the r
 | `web/shell.html` | the web page around the game |
 | `portmaster/` | PortMaster launcher, port.json, gameinfo.xml |
 
+## License
+
+The game's code is released under the [MIT License](LICENSE). The bundled font and library
+keep their own licenses (see `licenses/`).
+
 ## Credits
 
 - Game by Casey.
