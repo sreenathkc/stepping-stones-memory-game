@@ -1,4 +1,4 @@
-# Stepping Stones
+# Stepping Stones - a memory game
 
 **Watch the safe path light up, then walk it from memory.** One wrong step and the tile breaks!
 
@@ -8,7 +8,7 @@ also runs in a web browser as a single HTML file.
 
 **▶ Play in your browser: https://stepping-stones-67o.pages.dev**
 (or download `stepping-stones-web.html` from the
-[latest release](https://github.com/sreenathkc/stepping-stones/releases/latest) and open it -
+[latest release](https://github.com/sreenathkc/stepping-stones-memory-game/releases/latest) and open it -
 it's the whole game in one file, works offline)
 
 | Home: badges & levels | Watch the path | Level clear! |
@@ -47,7 +47,7 @@ know what to press.
 ## Install on a handheld
 
 **PortMaster:** download `steppingstones.zip` from the
-[latest release](https://github.com/sreenathkc/stepping-stones/releases/latest) and unzip it
+[latest release](https://github.com/sreenathkc/stepping-stones-memory-game/releases/latest) and unzip it
 into your ports folder (`roms/ports`, or `/storage/roms/ports` on ROCKNIX), then refresh the
 games list. You get `Stepping Stones.sh` and a `steppingstones/` folder; progress is saved in
 that folder.

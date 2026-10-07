@@ -1,7 +1,7 @@
 ## Notes
 
 Stepping Stones is an original memory game by Casey, made for kids: a safe path lights up
-across a floor of tiles, then you walk it from memory. Source: https://github.com/sreenathkc/stepping-stones
+across a floor of tiles, then you walk it from memory. Source: https://github.com/sreenathkc/stepping-stones-memory-game
 
 ## Controls
 
@@ -17,7 +17,7 @@ across a floor of tiles, then you walk it from memory. Source: https://github.co
 ## Compile
 
 ```
-git clone https://github.com/sreenathkc/stepping-stones.git
-cd stepping-stones
+git clone https://github.com/sreenathkc/stepping-stones-memory-game.git
+cd stepping-stones-memory-game
 make portmaster CROSS_CC=aarch64-linux-gnu-gcc
 ```
