@@ -1,0 +1,14 @@
+# build output
+/stones
+/build/
+/dist/
+*.o
+# the handheld's libSDL2/libasound copied off the device, only needed for cross-linking
+/device-libs/
+# personal touches for our own copy (a greeting, a "made for" name) - not published
+/personal/
+# local notes and saves
+/CLAUDE.md
+save.txt
+log.txt
+.DS_Store

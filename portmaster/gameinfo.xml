@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Stepping Stones.sh</path>
+    <name>Stepping Stones</name>
+    <desc>Watch a safe path light up across a floor of tiles, then walk it from memory - one wrong step and the tile breaks! 150 levels over easy, medium and hard, stars and badges to collect, and big, kid-friendly text with button pictures.</desc>
+    <releasedate>20261007T000000</releasedate>
+    <developer>Casey</developer>
+    <publisher>Open Source</publisher>
+    <genre>Puzzle</genre>
+    <image>./steppingstones/screenshot.png</image>
+  </game>
+</gameList>
